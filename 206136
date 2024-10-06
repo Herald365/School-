@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<head>
+    <title>PCMSC</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Your School Name</title>
+    <link rel="stylesheet" href="style7.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <div class="website">
+    <!--Header Section-->
+        <header class="header" id="home">
+            <div class="logo">
+                <img src="IMG_20241001_223214.jpg" alt="School Logo">
+            </div>
+            <div class="title">
+              <h1>Pabna Collectorate Model School And College<h1>
+                <p>
+                  EDUCATION IS LIGHT
+                </p>
+            </div>
+            <div class="icon">
+                <a href="mailto:your-email@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a href="https://facebook.com/yourprofile"><i class="fa fa-facebook"></i></a>
+            </div>
+        </header>
+
+        <!-- Sticky Navigation Bar -->
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#notice">Noticeboard</a>
+            <a href="#academics">Academics</a>
+            <a href="#location">Location & History</a>
+            <a href="#inspiration">Inspiration</a>
+            <a href="#footer">Contact Us</a>
+        </nav>
+
+        <!-- Hero Section --
+        <section id="home" class="hero">
+            <h2>Welcome to Your School</h2>
+            <div class="slideshow-container">
+                <img class="slide" src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1567&q=80" style="width:100%">
+                <img class="slide" src="https://cdn.pixabay.com/photo/2015/09/05/20/02/lecture-hall-923564_1280.jpg" style="width:100%">
+                <img class="slide" src="https://cdn.pixabay.com/photo/2016/02/16/16/55/school-1209822_1280.jpg" style="width:100%">
+            </div>
+        </section>-->
+       <!-- <section class="about">
+    <h2>About Our School</h2>
+    <p style="float: left; margin-right: 20px;">
+        <img src="IMG_20241001_223214.jpg" alt="Description of photo" style="width: 200px;">
+    </p>
+    <p>Your introductory description goes here. Talk about the mission, values, and unique aspects of your school.</p>
+</section> -->
+<section class="about" id="hero">
+    <h2>About Our School</h2>
+    <p>Your introductory description goes here. Talk about the mission, values, and unique aspects of your school.</p>
+    
+    <div class="photo-grid">
+        <div class="photo">
+            <img src="IMG_20241001_223214.jpg" alt="Description of photo 1">
+        </div>
+        <p>Some text</p>
+        <div class="photo">
+           <img src="img_2_1728036561693.jpg"
+           alt="Description of photo 2">
+        </div>
+        <p>Some text</p>
+        <div class="photo">
+        <img src="img_5_1728036691387.jpg"
+        alt="Description of photo 3">
+        </div>
+        <p>Some text</p>
+        <div class="photo">
+            <img src="img_4_1728036585678.jpg" 
+            alt="Description of photo 4">
+        </div><section class="about">
+    
+    <p>Your introductory description goes here. Talk about the mission, values, and unique aspects of your school.</p>
+    
+   <!-- <div class="photo-grid">
+        <div class="photo">
+            <img src="link-to-your-photo1.jpg" alt="Description of photo 1">
+        </div>
+        <div class="photo">
+            <img src="link-to-your-photo2.jpg" alt="Description of photo 2">
+        </div>
+        <div class="photo">
+            <img src="link-to-your-photo3.jpg" alt="Description of photo 3">
+        </div>
+        <div class="photo">
+            <img src="link-to-your-photo4.jpg" alt="Description of photo 4">
+        </div>
+        <p>Some text</p>
+    </div>-->
+</section>
+    </div>
+</section>
+
+        <!-- Noticeboard Section -->
+        <!--<section id="notice" class="note">
+            <h2>Noticeboard</h2>
+            <p>Latest news, events, and important updates here.</p>
+        </section>-->
+        <section id="notice" class="note">
+    <h2>Noticeboard</h2>
+    
+    <div class="important-notice">
+        <h3>Urgent: Parent-Teacher Meeting</h3>
+        <p>Date: October 5, 2024</p>
+        <p>All parents are requested to attend the parent-teacher meeting scheduled on October 5 at 5 PM in the school auditorium.</p>
+    </div>
+
+    <div class="notice-card">
+        <h3>School Holidays</h3>
+        <p>Date: September 28, 2024</p>
+        <p>The school will remain closed for the autumn break from October 10 to October 15.</p>
+    </div>
+    
+    <div class="notice-card">
+        <h3>New Library Books</h3>
+        <p>Date: September 20, 2024</p>
+        <p>Check out our new collection of books added to the library. Visit us during library hours!</p>
+    </div>
+</section>
+
+        <!-- Academics Section -->
+        <section id="academics" class="aca">
+            <h2>Academics</h2>
+            <p>Information about teachers, admissions, results, etc.</p>
+            <p>Teachers and administrators info</p>
+            <!--<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Contact Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Mr. John Doe</td>
+            <td>Mathematics</td>
+            <td>123-456-7890</td>
+        </tr>
+        <tr>
+            <td>Ms. Jane Smith</td>
+            <td>English</td>
+            <td>987-654-3210</td>
+        </tr>
+        <tr>
+            <td>Mr. Alan Brown</td>
+            <td>Science</td>
+            <td>456-789-0123</td>
+        </tr>
+        <!-- Add more teachers as needed -->
+        <ul>
+        <li>
+          <table>
+    <thead>
+        <tr>
+          <th>no.</th>
+            <th>Image</th> <!-- New Column for Images -->
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Contact Number</th>
+            <th>Post</th>
+        </tr>
+    </thead>
+    <tbody>
+            <td>2</td>
+            <td><img src="path/to/john_doe.jpg" alt="Mrs.Sultana Alam" width="50" height="50"></td> <!-- Image Cell -->
+            <td>Mrs.Sultana Alam</td>
+            <td>History</td>
+            <td>01777-570906</td>
+            <td>Vice Principal</td>
+        </tr>
+        <p></p>
+         </tbody>
+      </table>
+      <p>Teachers of Day Shift :</p>
+  <table>
+    </tbody>
+        <tr>
+          <td>3</td>
+            <td><img src="path/to/jane_smith.jpg" alt="Ms. Jane Smith" width="50" height="50"></td> <!-- Image Cell -->
+            <td>Ms. Jane Smith</td>
+            <td>English</td>
+            <td>987-654-3210</td>
+            <td>Asistant Teacher </td>
+        </tr>
+        <tr>
+          <td>4</td>
+            <td><img src="path/to/alan_brown.jpg" alt="Mr. Alan Brown" width="50" height="50"></td> <!-- Image Cell -->
+            <td>Mr. Alan Brown</td>
+            <td>Science</td>
+            <td>456-789-0123</td>
+            <td>Asistant Teacher</td>
+        </tr>
+        
+        <!-- Add more teachers as needed -->
+    </tbody>
+ </table>
+             <a href="">See the entire list</a>
+             </li>
+             </ul>
+
+        </section>
+
+        <!-- Location & History Section -->
+        <section id="location" class="loc">
+<!--          <iframe 
+    src="https://maps.app.goo.gl/aN4QmZUdcEV2k8oa8"
+    width="600" 
+    height="450" 
+    style="border:1px solid black" 
+    loading="lazy">
+</iframe>
+        <!--  <iframe href="https://www.google.com/maps/place/Pabna+Collectorate+Model+School+and+College/@24.003932,89.2439635,17z/data=!3m1!4b1!4m6!3m5!1s0x3756d6732ef469c5:0x5b0065d0f365cc9f!8m2!3d24.003932!4d89.2461522!16s%2Fg%2F11bzh3_b41?entry=ttu"></iframe>-->
+            <h2>Location & History</h2>
+            <img src="" alt="">
+            <a href="">Google Maps</a>
+            <p>Details about our school's history and location.</p>
+        </section>
+
+        <!-- Inspiration Section -->
+        <section id="inspiration" class="ins">
+          <h1>Why Choose Our School</h1>
+            <p>Development, opportunities, welfare, etc.</p>
+          <ul>
+            <li>
+              <h2>Better
+              Transportation
+              and Location</h2>
+              <img src="#" alt="">
+              <p>
+                
+              </p>
+            </li>
+             
+            <li>
+             <h2>Appropriate Teaching Environment
+             and Duration</h2>
+               <img src="#" alt="">
+              <p>
+              </p>
+            </li>
+            <li>
+              <h1>Continuous Development </h1>
+              <img src="&" alt="">
+              <p>
+                
+              </p>
+            </li>
+          </ul>
+            
+        </section>
+
+        <!-- Footer 
+        <footer class="footer">
+            <p>&copy; 2024 Your School. All rights reserved.</p>
+        </footer>-->
+            <footer id="footer">
+  <div class="footer-content">
+    <div class="footer-section about">
+      <h3>About Us</h3>
+      <p>
+        Welcome to My School. We believe in shaping young minds for a brighter future.
+      </p>
+    </div>
+
+    <div class="footer-section links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#notice">Noticeboard</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section contact">
+      <h3>Contact Us</h3>
+      <p>Email: PCMSC@gmail.com</p>
+      <p>Phone: +123 456 789</p>
+    </div>
+
+    <div class="footer-section social">
+      <h3>Follow Us</h3>
+      <a href="https://facebook.com/myschool">Facebook</a>
+      
+      <a href="malito:PCMSC@gmail.com">Gmail</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2024 My School. All rights reserved.</p>
+  </div>
+</footer>
+    </div>
+
+    <!-- JavaScript for Slideshow --
+    <script>
+        let slideIndex = 0;
+        function showSlides() {
+            let slides = document.getElementsByClassName("slide");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000); // 3 seconds
+        }
+        window.onload = function() {
+            showSlides();
+        };
+    </script>-->
+</body>
+</html>
